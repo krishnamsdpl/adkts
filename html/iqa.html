@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+ <p>
+<h1>What is differenc b/w varaible and varaible group</h1>
+Variables:
+Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.
+Syntax :
+variables:
+  myVariable: 'someValue'
+
+Variable Groups:
+Scope: Variable groups are defined at the project or organization level. They can be used across multiple pipelines within the same project or across projects in the organization
+Syntax:
+variables:
+  - group: 'MyVariableGroup'
+
+
+ </p>   
+</body>
+</html>

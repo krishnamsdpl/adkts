@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <style>
+        div.a {
+          line-height: normal;
+        }
+        
+        div.b {
+          line-height: 1.6;
+        }
+        
+        div.c {
+          line-height: 80%;
+        }
+        
+        div.d {
+          line-height: 200%;
+        }
+        </style>
+</head>
 <body>
  
 <h1>What is differenc b/w variable and variable group</h1>
-<p>Variables:
-Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.
-Syntax :
-variables:
-  myVariable: 'someValue'
+<p><div class="a">Variables:<br>
+Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.<br>
+Syntax :<br>
+variables:<br>
+  myVariable: 'someValue'<br>
 
-Variable Groups:
+Variable Groups:<br>
 Scope: Variable groups are defined at the project or organization level. They can be used across multiple pipelines within the same project or across projects in the organization
-Syntax:
-variables:
-  - group: 'MyVariableGroup'
+Syntax:<br>
+variables:<br>
+  - group: 'MyVariableGroup'</div>
+
 
 
  </p>   

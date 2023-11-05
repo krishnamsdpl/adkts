@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+</head>
 <head>
     <style>
         div.a {
@@ -23,6 +28,8 @@
  
 <h1>What is differenc b/w variable and variable group</h1>
 <p><div class="a">Variables:<br>
+<span class="">
+  <figure>
 Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.<br>
 Syntax :<br>
 variables:<br>
@@ -32,8 +39,25 @@ Variable Groups:<br>
 Scope: Variable groups are defined at the project or organization level. They can be used across multiple pipelines within the same project or across projects in the organization
 Syntax:<br>
 variables:<br>
-  - group: 'MyVariableGroup'</div>
+  - group: 'MyVariableGroup'
+</div>
 
+<h1>What is Azure storage?</h1>
+An Azure storage account contains all of your Azure Storage data objects, including blobs, file shares, queues, tables, and disks. The storage account provides a unique namespace for your Azure Storage data that's accessible from anywhere in the world over HTTP or HTTPS. 
+Data in your storage account is durable and highly available, secure, and massively scalable.
+
+<h1>2.	Managing Containers:</h1>
+•	docker run: Creates and starts a container from an image.
+•	docker ps: Lists running containers.
+•	docker ps -a: Lists all containers (including stopped ones).
+•	docker start <container-id>: Starts a stopped container.
+•	docker stop <container-id>: Stops a running container.
+•	docker rm <container-id>: Removes a container.
+•	docker exec -it <container-id> <command>: Runs a command inside a running container.
+
+
+</figure>
+</span> 
 
 
  </p>   

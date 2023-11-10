@@ -22,14 +22,37 @@
         div.d {
           line-height: 200%;
         }
+        .vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
         </style>
 </head>
 <body>
- 
+  <div class="vertical-menu">
+    <a href="./iqa.html">IQA</a>
+  </div>
+<div class="leftmeu">
 <h1>What is differenc b/w variable and variable group</h1>
 <p><div class="a">Variables:<br>
 <span class="">
-  <figure>
+<figure>
 Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.<br>
 Syntax :<br>
 variables:<br>
@@ -47,13 +70,13 @@ An Azure storage account contains all of your Azure Storage data objects, includ
 Data in your storage account is durable and highly available, secure, and massively scalable.
 
 <h1>2.	Managing Containers:</h1>
-•	docker run: Creates and starts a container from an image.
-•	docker ps: Lists running containers.
-•	docker ps -a: Lists all containers (including stopped ones).
-•	docker start <container-id>: Starts a stopped container.
-•	docker stop <container-id>: Stops a running container.
-•	docker rm <container-id>: Removes a container.
-•	docker exec -it <container-id> <command>: Runs a command inside a running container.
+<li>docker run: Creates and starts a container from an image.</li>
+<li>docker ps: Lists running containers.</li>
+<li>docker ps -a: Lists all containers (including stopped ones).</li>
+<li>docker start <container-id>: Starts a stopped container.</li>
+<li>docker stop <container-id>: Stops a running container.</li>
+<li>docker rm <container-id>: Removes a container<li>
+<li>docker exec -it <container-id> <command>: Runs a command inside a running container.</li>
 
 
 </figure>
